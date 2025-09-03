@@ -2,3 +2,10 @@ spring:
   sql:
     init:
       mode: never
+
+auth:
+  jwt:
+    secret-key: fdjslfjsdlfsjfieoffdsnlsdfjoeihfnwlfdskfjlsdsfjld
+    valid-time: 1800000
+  cookie:
+    max-age: 1800
